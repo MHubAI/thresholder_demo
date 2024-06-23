@@ -6,10 +6,10 @@ setup(
   description='A package for thresholding images',
   author='Leonard Nuernberg',
   author_email='lnuernberg@bwh.harvard.edu',
-  url='https://github.com/mhubai/demo_thresholder',
+  url='https://github.com/mhubai/thresholder_demo',
   packages=['thresholder'],
   install_requires=[
-    'SimpleITK>=2.3.0'
+    'SimpleITK>=2.3.0',
     'argparse>=1.4.0'
   ],
   entry_points={
